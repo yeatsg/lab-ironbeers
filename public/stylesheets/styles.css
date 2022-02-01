@@ -52,4 +52,20 @@ body {
   border-radius: 8px;
 }
 
+.beer-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.beer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.beer-image {
+  width: 15px;
+}
 /* Beer Menu Stuff */
