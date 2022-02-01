@@ -1,7 +1,55 @@
-/*
+/* 
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
-*/
+ */
+
+/* Landing Page stuff */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 0 0 0;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2081c3;
+  height: 125px;
+}
+
+.menu-item {
+  color: white;
+  font-size: large;
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#mug-clip-art {
+  width: 400px;
+}
+
+.beer-buttons {
+  background-color: #2081c3;
+  border: solid #bfbfbf 2px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Beer Menu Stuff */
